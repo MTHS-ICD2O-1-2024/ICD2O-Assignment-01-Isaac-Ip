@@ -6,17 +6,25 @@
 .mdl-layout__header-row {
   justify-content: center;
   padding: 0;
+  color: black;
 }
 
 .mdl-layout__content {
   font-family: monospace;
-  font-size: x-large;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: xx-large;
+  text-align: center;
 }
 
+h1 {
+font-size: x-large;
+font-family: monospace; 
+margin-top: -2px;
+}
+
+
+
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(216, 216, 216);
 }
 
 img {
@@ -24,6 +32,14 @@ img {
   height: 200px;
   border-radius: 200px / 100px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+background-color: rgb(233, 126, 2);
+color: rgb(0, 0, 0);
+padding: 10px;
+  font-size: xx-large;
 }
