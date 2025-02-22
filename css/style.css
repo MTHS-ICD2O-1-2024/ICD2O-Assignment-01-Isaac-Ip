@@ -9,13 +9,21 @@
 }
 
 .mdl-layout__content {
-  padding-left: 15pt;
-  padding-right: 15pt;
-  padding-top: 15pt;
   font-family: monospace;
   font-size: x-large;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
   background-color: rgb(255, 255, 255);
+}
+
+img {
+  width: 400px;
+  height: 200px;
+  border-radius: 200px / 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
