@@ -16,15 +16,13 @@
 }
 
 h1 {
-font-size: x-large;
-font-family: monospace; 
-margin-top: -2px;
+  font-size: x-large;
+  font-family: monospace;
+  margin-top: -2px;
 }
 
-
-
 body {
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(199, 199, 199);
 }
 
 img {
@@ -38,8 +36,18 @@ img {
 }
 
 h2 {
-background-color: rgb(233, 126, 2);
-color: rgb(0, 0, 0);
-padding: 10px;
+  background-color: rgb(233, 126, 2);
+  color: rgb(0, 0, 0);
+  padding: 10px;
   font-size: xx-large;
+  font-family: Inconsolata;
+}
+
+.inconsolata-<uniquifier> {
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
